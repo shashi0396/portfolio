@@ -7,8 +7,6 @@ const nextConfig: NextConfig = {
   distDir: 'docs',
 
   basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}`, // ❗ NO trailing slash
-
   trailingSlash: true,
 
   images: {
